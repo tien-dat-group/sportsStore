@@ -1,0 +1,71 @@
+{
+  "products": [
+    {
+      "id": 7,
+      "name": "Unsteady Chair",
+      "category": "Chess",
+      "description": "Secretly give your opponent a disadvantage",
+      "price": 29.95
+    },
+    {
+      "id": 8,
+      "name": "Human Chess Board",
+      "category": "Chess",
+      "description": "A fun game for the family",
+      "price": 75
+    },
+    {
+      "id": 9,
+      "name": "Bling Bling King",
+      "category": "Chess",
+      "description": "Gold-plated, diamond-studded King",
+      "price": 1200
+    },
+    {
+      "name": "Mimi shop",
+      "description": "mot loai thuyen",
+      "category": "sports",
+      "price": 10,
+      "id": 10
+    }
+  ],
+  "categories": [
+    "Watersports",
+    "Soccer",
+    "Chess"
+  ],
+  "orders": [
+    {
+      "name": "tien dat",
+      "email": "nguyentiendatbk2004@gmail.com",
+      "address": "dong quang",
+      "city": "thai nguyen",
+      "zip": "1200",
+      "country": "Vietnam",
+      "shipped": false,
+      "products": [
+        {
+          "product_id": 8,
+          "quantity": 1
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "dat",
+      "email": "nguyentiendat@bk",
+      "address": "abcbc",
+      "city": "ha noi",
+      "zip": "1000",
+      "country": "Vietnam",
+      "shipped": false,
+      "products": [
+        {
+          "product_id": 10,
+          "quantity": 1
+        }
+      ],
+      "id": 2
+    }
+  ]
+}
